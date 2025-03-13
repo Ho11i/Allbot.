@@ -3,9 +3,9 @@ import asyncio
 #from googletrans import Translator
 from telebot import types
 import random
+from file import Token
 
-
-bot = telebot.TeleBot('7841264202:AAHvHOTMMevaQDePOPSmVdbraZTMAa77C14')
+bot = telebot.TeleBot('Token')
 
 @bot.message_handler(commands=['start'])
 def start(message):
